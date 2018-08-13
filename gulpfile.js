@@ -1,3 +1,4 @@
+'use strict'
 const { series, parallel } = require('gulp');
 
 function clean(cb) {
