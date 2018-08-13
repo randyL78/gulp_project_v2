@@ -1,0 +1,22 @@
+{
+  "name": "gulp-project_v2",
+  "version": "2.0.0",
+  "description": "Project that practices making a full gulp build pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randyL78/gulp_project_v2.git"
+  },
+  "author": "Randy Layne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randyL78/gulp_project_v2/issues"
+  },
+  "homepage": "https://github.com/randyL78/gulp_project_v2#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
