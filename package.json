@@ -17,7 +17,18 @@
   },
   "homepage": "https://github.com/randyL78/gulp_project_v2#readme",
   "devDependencies": {
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "opn": "^5.3.0"
+  },
+  "dependencies": {
+    "gulp-connect": "^5.5.0"
   }
 }
