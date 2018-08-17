@@ -14,17 +14,16 @@
 
 * Available `gulp` commands:
 
-  * `gulp clean`
+  * `gulp clean` - Deletes 'dist' directory
 
-  * `gulp-images`
+  * `gulp images` - Optimizes images and places them in 'dist/content' folder
 
-  * `gulp styles`
+  * `gulp styles` - Compiles, concats and minifies .scss and .sass files into css and places them into the 'dist/styles` folder along with forming inline source maps.
 
-  * `gulp scripts`
+  * `gulp scripts` - Concats and minifies .js files into a single file and places them into the 'dist/scripts` folder along with forming inline source maps.
 
-  * `gulp serve`
+  * `gulp serve` - Creates a local server to run files in browser
 
-  * `gulp build`
+  * `gulp build` - Combines the clean, images, styles, and scripts taskes
 
-  * `gulp` default command
-
+  * `gulp` default command, Combines build task with a local server that watches for SASS changes and does a live reload.
